@@ -31,16 +31,16 @@ A pairplot is created to visualize the relationships between features, colored b
 A heatmap is generated to show the correlation between features.
 
 ## Model Building
-Splitting the Data:
+### Splitting the Data:
 The dataset is split into features (X) and the target (y).
 The data is further split into training and testing sets.
 
-## Training the Model:
+### Training the Model:
 A Decision Tree Classifier is chosen.
 Grid Search Cross-Validation is used to find the best parameters (criterion and max_depth).
 The best model is trained on the training data.
 
-## Model Evaluation:
+### Model Evaluation:
 The model is evaluated using the test data.
 Metrics such as accuracy, precision, recall, and F1-score are calculated.
 A confusion matrix is generated.
